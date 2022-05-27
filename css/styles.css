@@ -4,11 +4,13 @@ body {
   
 }
 img {
-  margin: auto;
+  margin: 30;
   height: 50%;
   width: 50%;
   display: block;
   size-adjust: 30%;
+  float: left;
+  padding: 20px;
 }
 .centered-image {
   margin: auto;
@@ -45,7 +47,7 @@ h4 {
 }
 
 .about-me {
-  width: 50;
+  width: 20;
   padding: 20px;
   border: solid black;
   border-width:20px;
@@ -66,8 +68,7 @@ h4 {
   display: block;
 }
 .skillscolumn {
-  width: 300px;
-  float: right;
+  width: 50;
   box-sizing: border-box;
   display: block;
   padding: 20px;
@@ -76,7 +77,14 @@ h4 {
   border-style: solid;
   border-width: 20px;
 }
-.highlight {
-color: red;
+a {
+  color: red;
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
 
-  }
+.resize {
+  width: 300px
+}
