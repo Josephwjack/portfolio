@@ -50,5 +50,17 @@ h4 {
   margin-bottom: 10px;
   box-sizing: border-box;
 }
-.projects
+.projects {
+  width: 50;
+  padding: 20px;
+  border: solid black;
+  border-width:20px;
+  background-color: orange;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.skillscolumn {
+  width: 300px;
+  float: right;
+
 
