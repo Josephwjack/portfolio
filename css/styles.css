@@ -100,3 +100,8 @@ a {
   color: maroon;
   text-decoration: solid;
 }
+
+p {
+  font-family: serif;
+  font-size: large;
+}
